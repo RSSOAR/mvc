@@ -1,0 +1,11 @@
+{
+    "name": "renato/mvc",
+    "description": "Estrutura MVC",
+    "authors": [
+        {
+            "name": "Renato Soares",
+            "email": "contatoreluxservice@gmail.com"
+        }
+    ],
+    "require": {}
+}
