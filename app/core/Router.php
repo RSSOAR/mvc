@@ -1,9 +1,8 @@
 <?php
 namespace App\Core;
 
-use \App\Controllers\HomeController;
+//use \App\Controllers\HomeController;
 use \App\Controllers\Errors\HttpErrorController;
-require_once '/../xampp/htdocs/PhpMvc/app/core/functions.php';
 
 class Router {
 
@@ -35,7 +34,7 @@ class Router {
 
     $params = array_slice($parts,2);  
    // dd($actionName, $controllerName, $parts, $url);
-   dd($params);
+   //dd($params);
 
     call_user_func_array([$controller, $actionName], $params);
   }
